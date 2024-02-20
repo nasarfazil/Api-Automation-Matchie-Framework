@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="46.91" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/nasar/Downloads/apache-maven-3.9.6/boot/plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="maven.conf" value="/Users/nasar/Downloads/apache-maven-3.9.6/conf"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.9.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/Users/nasar/Downloads/apache-maven-3.9.6"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/nasar"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.9.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="nasar"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="/Users/nasar/Downloads/Matschie"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/nasar/Downloads/Matschie"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/nasar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="classworlds.conf" value="/Users/nasar/Downloads/apache-maven-3.9.6/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/Users/nasar/Downloads/apache-maven-3.9.6/lib/jansi-native"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario" classname="runner.RunTest" time="8.224"/>
+  <testcase name="runScenario" classname="runner.RunTest" time="3.486"/>
+  <testcase name="runScenario" classname="runner.RunTest" time="2.553"/>
+  <testcase name="runScenario" classname="runner.RunTest" time="2.963"/>
+  <testcase name="runScenario" classname="runner.RunTest" time="2.707"/>
+  <testcase name="runScenario" classname="runner.RunTest" time="3.135"/>
+  <testcase name="createIncident" classname="services.IncidentTests" time="2.421"/>
+  <testcase name="deleteIncident" classname="services.IncidentTests" time="2.783"/>
+  <testcase name="getAllIncidents" classname="services.IncidentTests" time="2.499"/>
+  <testcase name="getIncidents" classname="services.IncidentTests" time="6.2"/>
+  <testcase name="updateIncident" classname="services.IncidentTests" time="3.488"/>
+</testsuite>
