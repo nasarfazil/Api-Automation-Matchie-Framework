@@ -23,6 +23,8 @@ public class SetUp {
 		RestAssured.authentication = RestAssured.preemptive().basic(prop.getProperty("username"),prop.getProperty("password"));
 	}
 	
+	//After test
+	
 	@After
 	public void tearDown(){ 
 		
